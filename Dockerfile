@@ -1,6 +1,7 @@
 FROM python:3.10.0
 
 ENV FLASK_APP=SSDT
+ENV FLASK_DEBUG=$FLASK_DEBUG
 
 COPY requirements.txt /opt
 
